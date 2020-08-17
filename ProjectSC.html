@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cocktails</title>
+    <link rel='icon' href='https://static.thenounproject.com/png/1149659-200.png' type='image/x-icon' />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        background-image: url("https://images.pexels.com/photos/2088205/pexels-photo-2088205.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+        background-attachment: fixed;
+        font-family: "Bangers", cursive;
+        text-align: center;
+        cursor: url(https://cdn.shopify.com/s/files/1/1061/1924/files/Margarita_Cocktail_Emoji_60x60.png?12091278516374327960),
+          auto;
+      }
+      body {
+          height: 90%;
+          width: 99%;
+
+      }
+      h1 {
+        cursor: pointer;
+        font-size: 40px;
+        transition: all 200ms ease-in-out;
+        background-image:linear-gradient(#fac7c6,white);
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 2px 5px 3px grey;
+        margin: 0px 300px auto;
+      }
+      h1:hover {
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 5px 3px rgb(0, 0, 0);
+        box-shadow: 4px 7px 5px grey;
+
+      }
+      p {
+        font-size: 20px;
+        line-height: 1.5;
+        font-weight: lighter;
+      }
+      audio {
+          cursor: pointer;
+      }
+      div {
+          display: block;
+          margin: 0 auto;
+          max-width: 80%;  
+          
+      }
+      ul {
+        list-style-type: none;
+        font-size: 23px;
+        line-height: 2;
+      }
+      li {
+        display: inline-block;
+        float: none;
+        margin: 20px;
+        cursor: pointer;
+        transition: all 200ms ease-in-out;
+      }
+      li:hover {
+        color: white;
+        font-size: 23px;
+        text-shadow: 2px 5px 3px rgb(32, 32, 32);
+      }
+      li img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        box-shadow: 2px 5px 5px black;
+        border: 1px solid black;
+      }
+      button {
+          font-family:"Bangers", cursive;
+          font-size: 23px;
+          color: white;
+          background-color: black;
+          box-shadow: 2px 5px 3px grey;
+          cursor: pointer;
+          margin: 20px;
+          padding: 10px 20px;
+          transition: all 200ms ease-in-out;
+
+      }
+      button:hover{
+          color: black;
+          background-color:white;
+      }
+      a {
+          color:white;
+      }
+      a:hover {
+          color:black;
+      }
+      .picker img:hover{
+          border: 3px solid black;
+      }
+      .byNina {
+          color: black;
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      .byNina a {
+           color: black;
+          font-family: Arial, Helvetica, sans-serif;
+      }
+         </style>
+  </head>
+  <body>
+    <h1>Let's get shakin'</h1>
+    <h2></h2>
+
+    <p>
+      Find your favorite cocktail recipe here and bring out the mixologist in
+      you!
+    </p>
+
+    <hr />
+    <p>Play for a more boozy atmosphere</p>
+    <audio controls src="https://www.free-stock-music.com/music/friendzoned-grey.mp3"></audio>
+    <div>
+    <ul>
+      <li>
+        Moscow Mule<br />
+        <a href="https://www.youtube.com/watch?v=W1_eAahUUpM" target="_blank"
+          ><img
+            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/moscow-mule-recept-1573404632.jpg?resize=320:*"
+            alt="Moscow Mule in copper mug"
+        /></a>
+      </li>
+      <li>
+        Cosmopolitan<br />
+        <a href="https://www.youtube.com/watch?v=Cf8ABwVh_5w" target="_blank">
+          <img
+            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cosmopolitan-6-1581517161.jpg?crop=1.00xw:0.665xh;0,0.240xh&resize=480:*"
+            alt="Cosmopolitan"
+        /></a>
+      </li>
+      <li>
+        Mojito<br />
+        <a href="https://www.youtube.com/watch?v=mIPMeIady3w" target="_blank">
+          <img
+            src="https://www.besterecepten.nl/wp-content/uploads/mohito.jpg "
+            alt="Mojito"
+        /></a>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        Sex on the Beach<br />
+        <a
+          href="https://www.youtube.com/watch?v=KwkcKSwymro"
+          target="_blank"
+          ><img
+            src="https://dronkenginger.nl/wp-content/uploads/2019/03/sex_on_the_beach1.jpg"
+            alt="Cocktail named Sex on the Beach"
+        /></a>
+      </li>
+      <li class="picker">
+        Not sure what to make? Click here<br />
+        <img src="https://media1.giphy.com/media/Yqi2PfAkMMkWdJI0Xi/giphy.gif"
+            alt="Picker" /></a>
+      </li>
+      <li>
+        Dark 'n Stormy<br />
+        <a href="https://www.youtube.com/watch?v=FT43iTg0RYQ" target="_blank">
+          <img
+            src="https://www.abc.virginia.gov/library/products/images/recipes/darknstormy-cocktail.jpg?h=400&w=311&la=en&hash=A2DC9C44864DE1996F6E7E441E7BC2F401C173AE"
+            alt="Dark 'n Stormy'"
+        /></a>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        Margarita<br />
+        <a
+          href="https://www.youtube.com/watch?v=xI3_ydC8qnU target="
+          target="_blank"
+          ><img
+            src="https://cdn.diffords.com/contrib/stock-images/2020/02/5e4fcce633f2a.jpg"
+            alt="Margarita"
+        /></a>
+      </li>
+      <li>
+        Bloody Mary<br />
+        <a href="https://www.youtube.com/watch?v=zWJt7jb9Mro" target="_blank">
+          <img
+            src="https://cdn.diffords.com/contrib/stock-images/2019/10/5db96bdadba87.jpg"
+            alt="Bloody Mary"
+        /></a>
+      </li>
+      <li>
+        Espresso Martini<br />
+        <a href="https://www.youtube.com/watch?v=ZAgk9eWhKKc" target="_blank">
+          <img
+            src="https://cdn.diffords.com/contrib/stock-images/2018/05/5af305ea4a344.jpg"
+            alt="Espresso Martini"
+        /></a>
+      </li>
+    </ul>
+    </div>
+    <button><a href='https://www.google.com/search?sxsrf=ALeKk02GEJ1nEsksDJBtVioQ75vnZJuoVQ%3A1594843142708&ei=BmAPX_XZKo6WkwXKgKKwBQ&q=cocktail+recipes&oq=cocktail+recipes&gs_lcp=CgZwc3ktYWIQAzICCAAyAggAMgUIABDLATICCAAyAggAMgIIADIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywE6BAgjECc6BAguECc6BAgAEEM6BwguECcQkwI6BwgAELEDEEM6BAguEEM6BwguELEDEEM6BQguELEDOggIABCxAxCDAToHCC4QChCTAjoECAAQCjoECC4QCjoHCAAQChDLAToKCC4QsQIQJxCTAjoKCCMQsQIQsQIQJzoFCAAQsQM6AgguUI4lWI9OYMBOaANwAHgAgAFZiAGlCZIBAjE4mAEAoAEBqgEHZ3dzLXdpeg&sclient=psy-ab&ved=0ahUKEwj19PjXhdDqAhUOy6QKHUqACFYQ4dUDCAw&uact=5' 
+        target="_blank">Find More Cocktails</a></button>
+ <br>
+ <hr>
+ <p class="byNina"><em>This page was coded by <strong><a href='https://github.com/ninsajala' target="_blank" >Nina</a></strong></em></p>
+</body>
+  <script>
+    function changeHeader() {
+      let name = prompt("What is your name?");
+      let welcome = document.querySelector("h2");
+      if (name === undefined || name === null) {
+        welcome.innerHTML = "Welcome! Ready to learn some cocktail recipes?";
+      } else {
+        welcome.innerHTML = `Welcome ${name}! Ready to learn some cocktail recipes?`;
+      }
+    }
+    let h1 = document.querySelector("h1");
+    h1.addEventListener("click", changeHeader);
+
+    function cocktailAdvise() {
+      let sleepyness = prompt("How sleepy do you feel on a scale from 1 to 10?");
+      if(sleepyness > 5){
+          alert("Go for Espresso Martini!☕️");
+      }
+      else { 
+          let tomato = prompt("How much do you love the taste of tomatoes on a scale from 1 to 10 ?");
+          if(tomato > 5){
+              alert("Bloody Mary is the one for you! 🍅");
+          }
+          else {
+              let sweet = prompt("Again from 1 to 10, how much do you feel like a sweet drink?");
+              if(sweet > 5 ){
+                  alert("You'll probably like a Sex on the Beach!🍊");
+              }
+              else { 
+                  let ginger = prompt("How much do you like ginger from 1 to 10?");
+                  if(ginger > 5){
+                      let rum = prompt("Rum or Vodka?");
+                      rum = rum.toLowerCase();
+                      if(rum === "rum"){
+                          alert("Dark and Stormy it is!🥃");
+                      }
+                      else {
+                          alert("Moscow Mule is your drink!🥃");
+                      }  
+                  }
+                  else { 
+                      let strong = prompt("Scale from 1 tot 10: feel like strong cocktail?")
+                        if(strong > 5){
+                            alert("Try a Margarita!🍸");
+                        }
+                        else {
+                            let pink = prompt("How much is pink your color from 1 to 10?");
+                            if(pink > 5 ){
+                                alert("A Cosmpolitan for you!💓");
+                            }
+                            else {
+                                alert("Try a good old Mojito or check the bottom of the page for more inspiration!")
+                            }
+                        
+                        }
+
+
+                  }
+              }
+          }
+
+      }
+    }
+    let picker = document.querySelector(".picker");
+    picker.addEventListener("click", cocktailAdvise);
+  </script>
+</html>
